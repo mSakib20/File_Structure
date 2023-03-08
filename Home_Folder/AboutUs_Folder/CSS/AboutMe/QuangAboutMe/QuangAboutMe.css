@@ -1,0 +1,88 @@
+body {
+  background-image: url(../../../Asset/AboutMe/QuangAboutMe/QuangAboutMe.gif) ;
+}
+
+#nav {
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: lightgreen;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.6;
+  
+}
+
+#title-text{
+  animation: effect 2s linear infinite;
+  font-size: 5em;
+  font-family: serif;
+  color: transparent;
+  text-shadow: black 1px 0 10px;
+
+}
+
+#aboutmetext{
+  color: green;
+  text-align: center;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
+#About-me{
+  width: 45%;
+  height: 30rem;
+  justify-content: center;
+  text-align: center;
+  opacity: .8;
+  margin-top: 30px;
+}
+
+#accordian{
+  color: green;
+  text-align: center;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
+
+.carousel img {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+.carousel {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+
+}
+
+#list{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+
+
+@keyframes effect {
+  0% {
+      background: linear-gradient(
+              #008000, #00FF00);
+      -webkit-background-clip: text;
+  }
+
+  100% {
+      background: linear-gradient(
+              red, gray);
+      -webkit-background-clip: text;
+  }
+}
